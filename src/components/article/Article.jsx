@@ -9,5 +9,5 @@ const Article = () => {
     )
 }
 
-export default article
+export default Article
 

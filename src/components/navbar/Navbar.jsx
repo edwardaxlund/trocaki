@@ -1,10 +1,15 @@
 import React from 'react';
-import 'navbar.css';
-
+import {RiMenu3Line, RiCloseLine} from 'react-icons/ri';
+import './navbar.css';
+import  logo from '../../assets/logo.png'
 const Navbar = () => {
     return (
-        <div>
-            Navbar
+        <div className = "trocaki_navbar">
+            <div className = 'trocaki_navbar-links'>
+                <div className = 'trocaki_navbar-links_logo'>
+                    <img src = {logo} alt = "logo"/>
+                </div>
+            </div>
         </div>
     )
 }

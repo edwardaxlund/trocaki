@@ -1,12 +1,12 @@
 import React from 'react';
-import './cta.css';
+import './blog.css';
 
-const CTA = () => {
+const Blog = () => {
     return (
         <div>
-            CTA
+            Blog
         </div>
     )
 }
 
-export default CTA
+export default Blog
